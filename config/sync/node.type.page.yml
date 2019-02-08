@@ -1,0 +1,11 @@
+uuid: 34da7114-17c5-4d7c-9fcb-9bca80544975
+langcode: en
+status: true
+dependencies: {  }
+name: Page
+type: page
+description: 'Page width picture'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

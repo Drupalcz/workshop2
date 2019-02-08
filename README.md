@@ -9,7 +9,13 @@ Spusťe Lando
     lando start -v
 
 Soubor web/sites/workshop.settings.php
-zkopírujte jako web/sites/default/setting.php.
+zkopírujte jako web/sites/default/settings.php.
+
+Základní instalace Drupalu:
+lando drush si minimal --existing-config
+
+Imporovat config:
+lando drush cim
 
 Zkontrolujte jak Drupal funguje.
 

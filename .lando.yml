@@ -1,0 +1,16 @@
+name: dcz-workshop2
+recipe: drupal8
+config:
+  webroot: web
+  drush: 9
+
+  overrides:
+    volumes:
+      - ${HOME}/.lando/composer_cache:/var/www/.composer
+
+services:
+  mailhog:
+    type: mailhog
+    hogfrom:
+      - appserver
+
